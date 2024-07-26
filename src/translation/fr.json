@@ -1,0 +1,20 @@
+{
+    "welcomeTitle": "Bienvenue sur mon application météo",
+    "loading": "Chargement...",
+    "error": "Erreur: {{error}}",
+    "selectCity": "Merci de sélectionner une ville",
+    "weather": {
+        "title": "Météo",
+        "temperature": "Température: {{temp}}°C",
+        "condition": "Condition: {{condition}}"
+    },
+    "astronomy": {
+        "title": "Astronomie",
+        "sunrise": "Lever du soleil: {{sunrise}}",
+        "sunset": "Coucher du soleil: {{sunset}}",
+        "moonrise": "Lever de la lune: {{moonrise}}",
+        "moonset": "Coucher de la lune: {{moonset}}",
+        "moonPhase": "Phase de la lune: {{moonPhase}}",
+        "moonIllumination": "Illumination de la lune: {{moonIllumination}}"
+    }
+}

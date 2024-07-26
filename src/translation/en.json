@@ -1,0 +1,20 @@
+{
+    "welcomeTitle": "Welcome to my weather App",
+    "loading": "Loading...",
+    "error": "Error: {{error}}",
+    "selectCity": "Please select a city",
+    "weather": {
+        "title": "Weather",
+        "temperature": "Temperature: {{temp}}°C",
+        "condition": "Condition: {{condition}}"
+    },
+    "astronomy": {
+        "title": "Astronomy",
+        "sunrise": "Sunrise: {{sunrise}}",
+        "sunset": "Sunset: {{sunset}}",
+        "moonrise": "Moonrise: {{moonrise}}",
+        "moonset": "Moonset: {{moonset}}",
+        "moonPhase": "Moon Phase: {{moonPhase}}",
+        "moonIllumination": "Moon Illumination: {{moonIllumination}}"
+    }
+}

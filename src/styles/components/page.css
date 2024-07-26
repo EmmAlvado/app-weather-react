@@ -1,0 +1,9 @@
+@import '../variables.css';
+
+.page__container {
+  margin: var(--spacing-lg) var(--spacing-md);
+}
+
+.page__title {
+  margin: var(--spacing-md) 0;
+}

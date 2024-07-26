@@ -1,0 +1,16 @@
+@import '../variables.css';
+
+  
+.toggle__form {
+  display: inline-flex;
+   align-items: center; 
+}
+
+.toggle__icon--left {
+  margin-right: var(--spacing-md);
+}
+
+.toggle__icon--right {
+  margin-left: var(--spacing-md);
+}
+  

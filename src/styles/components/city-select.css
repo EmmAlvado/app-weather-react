@@ -1,0 +1,6 @@
+@import '../variables.css';
+
+.city-select__container {
+  margin-bottom: var(--spacing-md);
+}
+

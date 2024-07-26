@@ -1,0 +1,18 @@
+/* Couleurs de base */
+:root {
+  --color-primary: #007bff;  
+  --color-secondary: #6c757d; 
+  --color-success: #28a745;   
+  --color-error: #dc3545;     
+  --color-warning: #ffc107;   
+
+  --text-default: #333;
+  --border-color: #ddd;
+}
+
+
+/* Spacing */
+:root {            
+  --spacing-md: 10px;             
+  --spacing-lg: 20px;             
+}
