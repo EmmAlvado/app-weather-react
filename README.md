@@ -1,46 +1,30 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Project Overview
 
-In the project directory, you can run:
+This project uses React, TypeScript, and Redux. We use i18n for dictionary management and React Bootstrap for some component bases as well as icons. Axios is used to call the API at https://api.weatherapi.com/v1/.
 
-### `npm start`
+### Initialization
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Use `npm install` to install dependencies.
+- Use `npm run start` to start the project.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Architecture
 
-### `npm test`
+Within the `src` folder, you will find several subfolders:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **components**: Contains various components organized by atomic logic.
+- **pages**: Contains the potential pages of the project.
+- **store**: Contains everything related to the store and Redux, such as reducers or actions.
+- **styles**: Contains the project's CSS files - the project's CSS classes follow the BEM standard.
+- **translation**: Contains the project's dictionaries.
+- **types**: Contains the importable type files of the project.
 
-### `npm run build`
+### Potential Improvements with More Time
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Better Interface**: The few elements displayed didn't inspire much in terms of interface design. Therefore, very little time was spent on CSS, but I decided to still set up a variable import system to demonstrate its use.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Better Data Management**: Despite the implementation of translation keys with i18n, the retrieved data is not adapted to language changes. For instance, we could use Moment.js to change the format of received dates and times.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
