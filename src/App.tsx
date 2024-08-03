@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <h1>{t('welcomeTitle')}</h1>
-        <CitySelect onCityChange={() => {}} />
+        <CitySelect />
         <Routes>
           <Route path="/" element={<Page/>} />
           <Route path="/:city" element={<Page/>} />
